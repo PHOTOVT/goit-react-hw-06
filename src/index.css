@@ -4,14 +4,19 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: ivory;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  display: inline-block;
+  align-items: center;
+  justify-items: center;
 }
+
 
 a {
   font-weight: 500;
@@ -33,6 +38,8 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 button {

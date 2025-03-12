@@ -45,6 +45,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             id={nameFieldId}
+            placeholder="Enter a name and surname"
           />
           <ErrorMessage name="name" component="span" />
           <label htmlFor={numberFieldId}>Number</label>
@@ -53,6 +54,7 @@ const ContactForm = () => {
             type="tel"
             name="number"
             id={numberFieldId}
+            placeholder="Enter a number"
           />
           <ErrorMessage name="number" component="span" />
           <button type="submit">Add new contact</button>

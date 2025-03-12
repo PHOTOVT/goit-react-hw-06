@@ -1,11 +1,11 @@
 .searchBox {
-    width: 100%;
-  }
-  
+  width: 100%;
+}
+
 .searchBox h2 {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 .searchBox input {
   width: 400px;
@@ -25,11 +25,11 @@
 }
 
 .searchBox input:-webkit-autofill,
-.searchBox input:-webkit-autofill:hover
-.searchBox input:-webkit-autofill:focus, 
+.searchBox input:-webkit-autofill:hover,
+.searchBox input:-webkit-autofill:focus,
 .searchBox input:-webkit-autofill:active {
   background-color: ivory !important;
   color: black !important;
-  -webkit-box-shadow: 0 0 0px 1000px ivory inset !important;
+  box-shadow: 0 0 0px 1000px ivory inset !important;
   transition: background-color 5000s ease-in-out 0s;
 }
